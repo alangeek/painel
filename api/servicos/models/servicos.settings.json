@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicos",
+  "info": {
+    "name": "servicos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "produtos": {
+      "type": "string"
+    }
+  }
+}
